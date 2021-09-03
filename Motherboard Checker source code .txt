@@ -1,0 +1,18 @@
+//hiding the commands 
+@echo off
+
+//Funny haha colours
+color 2E
+color 4
+
+//text
+echo Welcome to EliYeets Motherboard checker!
+
+//command for finding name/manufacturer
+wmic baseboard get product,Manufacturer
+
+//trustable source
+echo source: Trust me bro!
+
+//stopping cmd from closing
+pause
